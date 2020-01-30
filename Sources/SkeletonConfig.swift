@@ -3,7 +3,7 @@
 import UIKit
 
 /// Used to store all config needed to activate the skeleton layer.
-struct SkeletonConfig {
+public struct SkeletonConfig {
     /// Type of skeleton layer
     let type: SkeletonType
     

@@ -127,7 +127,7 @@ extension UIView {
         }
     }
 
-    private func showSkeletonIfNotActive(skeletonConfig config: SkeletonConfig) {
+    open func showSkeletonIfNotActive(skeletonConfig config: SkeletonConfig) {
         guard !isSkeletonActive else { return }
         isUserInteractionEnabled = false
         saveViewState()
